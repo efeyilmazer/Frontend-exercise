@@ -3,6 +3,7 @@
 ---
 
 > Frontend Exercise Repo
+
 Login component
 ![login-component](https://user-images.githubusercontent.com/84992900/124680161-7c999000-dece-11eb-9208-6a21c05be709.png)
 
@@ -23,6 +24,3 @@ Support component
 
 Search filter components
 ![search-filter-components](https://user-images.githubusercontent.com/84992900/124680229-9b982200-dece-11eb-878c-1a6af05ddd6c.png)
-
-
----
