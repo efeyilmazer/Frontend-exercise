@@ -7,11 +7,7 @@ const minifyJS = require("gulp-uglify");
 const concat = require("gulp-concat");
 const autoprefixer = require("gulp-autoprefixer");
 const del = require("del");
-<<<<<<< HEAD
 const fileName="6-share-popup-component";
-=======
-const fileName="1-search-filter-components";
->>>>>>> 19a4cf7c27e9b76ea2c919077a147c740a623188
 
 //src/2-linkedin-redesign/**/
 gulp.task("browser-sync", () => {
