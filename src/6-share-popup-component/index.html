@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/app.min.css?v=1">
+</head>
+<body>
+<label for="popup-1" class="popup-toggle-btn">
+	<img src="img/share-icon.svg" alt="">
+	Share
+</label>
+
+<input type="checkbox" id="popup-1" class="popup-toggle">
+
+<div class="popup">
+	<div class="popup-inner share-popup">
+		<label for="popup-1" class="popup-close">
+			<img src="img/close.svg">
+		</label>
+		<h4>Share this design</h4>
+		<ul>
+			<li>
+				<a href="#">
+					<img src="img/twitter.svg">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="img/facebook.svg">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="img/instagram.svg">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="img/pinterest.svg">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="img/tumblr.svg">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="img/linkedin.svg">
+				</a>
+			</li>
+		</ul>
+		<h6>or copy link</h6>
+		<div class="input">
+			<input type="text" readonly id="input-url" value="github.com/efeyilmazer">
+			<button type="button" onclick="copy('input-url')">Copy</button>
+		</div>
+	</div>
+</div>
+
+<div class="alert">
+	Successfully copied.
+</div>
+
+
+
+
+<script src="js/app.min.js"></script>
+
+</body>
+</html>
