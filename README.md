@@ -1,5 +1,4 @@
 # frontend-exercise
-test
 ---
 
 > Frontend Exercise Repo
