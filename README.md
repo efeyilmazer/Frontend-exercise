@@ -4,6 +4,9 @@
 
 > Frontend Exercise Repo
 
+Cookie banner example
+https://user-images.githubusercontent.com/84992900/124970272-63a8f000-e030-11eb-92a6-fd8a792600ab.mp4
+
 Login component example
 ![login-component](https://user-images.githubusercontent.com/84992900/124680161-7c999000-dece-11eb-9208-6a21c05be709.png)
 
