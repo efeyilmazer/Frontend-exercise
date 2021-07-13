@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Montserrat', sans-serif;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+html, body {
+  height: 100%;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #FF8BE0, #FFE364);
+}
+
+.component {
+  background: #fff;
+  box-shadow: 0 32px 23px -25px rgba(#465DA9, .15);
+  h4 {
+    font-size: 24px;
+    color: #1A2250;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+
+  .action {
+    display: inline-flex;
+    align-items: center;
+    a {
+      color: #6189FF;
+      font-size: 20px;
+      font-weight: 600;
+      background: url(../img/icon-right-arrow.svg) no-repeat calc(100% - 10px);
+      padding-right: 35px;
+      transition: 300ms all;
+      &.btn {
+        padding: 0 70px;
+        height: 78px;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to bottom right, #8BCDFF, #6487FF) ;
+        color: #fff;
+        border-radius: 78px;
+        margin-right: 40px;
+        box-shadow: 0 20px 25px -15px rgba(#6C9DF3, .6);
+      }
+      &:hover {
+        background: url(../img/icon-right-arrow-hover.svg) no-repeat calc(100%);
+        color: #1A2250;
+        text-decoration: underline;
+      }
+    }
+  }
+  &--web1 {
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 65px 65px 45px;
+    ul {
+      display: flex;
+      margin: 0 -16px;
+      li {
+        a {
+          max-width: 350px;
+          display: block;
+          padding: 20px 40px 20px 40px;
+          font-size: 20px;
+          color: #5F85FF;
+          font-weight: 500;
+          line-height: 31px;
+          border-radius: 12px;
+          background: url(../img/icon-right-arrow.svg) no-repeat calc(100% - 20px);
+          position: relative;
+          transition: 300ms all;
+          &::before {
+            content: '';
+            width: 4px;
+            border-radius: 2px;
+            background: linear-gradient(to bottom, #8BCDFF, #6487FF);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            bottom: 20px;
+          }
+          &:hover {
+            background: url(../img/icon-right-arrow-hover.svg) no-repeat calc(100%) #F6F8FF;
+            color: #1A2250;
+          }
+        }
+      }
+    }
+  }
+  &--web2 {
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 65px 75px;
+    max-width: 620px;
+    text-align: center;
+    p {
+      font-size: 20px;
+      color: #1A2250;
+      font-weight: 500;
+      line-height: 31px;
+      margin-top: -15px;
+      margin-bottom: 50px;
+    }
+  }
+  &--web3 {
+    border-radius: 10px;
+    position: absolute;
+    left: 1200px;
+    top: 365px;
+    max-width: 685px;
+    padding: 65px;
+    h2 {
+      font-size: 34px;
+      color: #1A2250;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 24px;
+      color: #1A2250;
+      font-weight: 500;
+      margin-bottom: 40px;
+    }
+    .actions {
+          display: inline-flex;
+    align-items: center;
+      a {
+        &.btn {
+          padding: 0 70px;
+          height: 78px;
+          display: flex;
+          align-items: center;
+          background: linear-gradient(to bottom right, #8BCDFF, #6487FF) ;
+          color: #fff;
+          border-radius: 78px;
+          margin-right: 40px;
+          box-shadow: 0 20px 25px -15px rgba(#6C9DF3, .6);
+        }
+        &.btn2 {
+          display: block;
+          padding: 20px 40px 20px 40px;
+          font-size: 20px;
+          color: #5F85FF;
+          font-weight: 500;
+          line-height: 31px;
+          border-radius: 12px;
+          background: url(../img/icon-right-arrow.svg) no-repeat calc(100% - 20px);
+          position: relative;
+          transition: 300ms all;
+          &:hover {
+            background: url(../img/icon-right-arrow-hover.svg) no-repeat calc(100%);
+            color: #1A2250;
+          }
+        }
+      }
+    }
+  }
+}
+
