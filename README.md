@@ -1,7 +1,9 @@
 # frontend-exercise
 ---
-
 > Frontend Exercise Repo
+
+Job page component example
+![job-page-components](https://user-images.githubusercontent.com/84992900/125496545-dcb1b0ec-0e7a-41fd-87b4-25e1fa9086be.png)
 
 Cookie banner example                                                  
 For actions: https://user-images.githubusercontent.com/84992900/124970272-63a8f000-e030-11eb-92a6-fd8a792600ab.mp4
@@ -15,6 +17,9 @@ Login component example
 
 Share popup example
 ![share-popup](https://user-images.githubusercontent.com/84992900/124810252-c4b9c080-df69-11eb-9d96-1d8859ca30b2.png)
+
+Website component example
+![website-components](https://user-images.githubusercontent.com/84992900/125495968-1331a64f-5734-48ef-bf65-90f11872f245.png)
 
 Price plan component example
 ![price-plan-component](https://user-images.githubusercontent.com/84992900/124680188-891de880-dece-11eb-985a-41d376bb132c.png)
@@ -33,3 +38,4 @@ Support component example
 
 Search filter components example
 ![search-filter-components](https://user-images.githubusercontent.com/84992900/124680229-9b982200-dece-11eb-878c-1a6af05ddd6c.png)
+---
