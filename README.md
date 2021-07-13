@@ -28,7 +28,6 @@ For actions: https://user-images.githubusercontent.com/84992900/124970272-63a8f0
 ![pricing-list-component](https://user-images.githubusercontent.com/84992900/124680198-8b804280-dece-11eb-8f2d-4d8f2f2049d2.png)
 
 ✔ Help center component example
-
 ![help-center](https://user-images.githubusercontent.com/84992900/124680205-9044f680-dece-11eb-9d8e-784d44597324.png)
 
 ✔ Html form component example
