@@ -3,7 +3,7 @@
 > Frontend Exercise Repo
 
 Job page component example
-![job-page-components](https://user-images.githubusercontent.com/84992900/125496009-38be2ca9-f10a-407f-ab99-a7aa732223ce.png)
+![job-page-components](https://user-images.githubusercontent.com/84992900/125496545-dcb1b0ec-0e7a-41fd-87b4-25e1fa9086be.png)
 
 Cookie banner example                                                  
 For actions: https://user-images.githubusercontent.com/84992900/124970272-63a8f000-e030-11eb-92a6-fd8a792600ab.mp4
