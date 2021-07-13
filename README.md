@@ -1,7 +1,8 @@
 # frontend-exercise
 ---
-
 > Frontend Exercise Repo
+---
+
 Job page component example
 ![job-page-components](https://user-images.githubusercontent.com/84992900/125496009-38be2ca9-f10a-407f-ab99-a7aa732223ce.png)
 
