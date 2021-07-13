@@ -251,6 +251,7 @@ body {
   &--job-button {
     top: 180px;
     left: 50%;
+    transform: translateX(-50%);
     position: absolute;
     display: inline-flex;
     align-items: center;
