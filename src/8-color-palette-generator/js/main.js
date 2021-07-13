@@ -13,8 +13,12 @@ function notification(msg){
     div.innerHTML = msg;
     document.body.appendChild(div);
 
-    setTimeout(() => div.classList.add('active'), 1);
-    setTimeout(() => div.classList.remove('active'), 1000);
+    setTimeout(function () {
+        div.classList.add('active')
+    }, 1);
+    setTimeout(function () {
+    div.classList.remove('active')
+    }, 1000);
 
 }
 
@@ -41,15 +45,15 @@ function generateColorPalette(){
         li.appendChild(input);
         colorPalette.appendChild(li);
 
-        li.addEventListener('mouseover', (e) => {
-            currentElem = e.target.parentNode;
+        li.addEventListener('mouseover', function (e) {
+                currentElem = e.target.parentNode;
         });
 
-        li.addEventListener('click', (e) => {
-            let targetInput = e.target.parentNode.querySelector('input[name="color"]');
-            targetInput .select();
-            document.execCommand('copy');
-            notification('Color <b>' + targetInput.value  + '</b> copied to your clipboard')
+        li.addEventListener('click', function (e) {
+                var targetInput = e.target.parentNode.querySelector('input[name="color"]');
+                targetInput .select();
+                document.execCommand('copy');
+                notification('Color <b>' + targetInput.value  + '</b> copied to your clipboard')
         });
 
     }
@@ -58,7 +62,7 @@ function generateColorPalette(){
 function generateColor(){
     var str = 'abcdef0123456789';
     var color = '#';
-    for (let i = 0; i <= 5; i++) {
+    for (var i = 0; i <= 5; i++) {
         color += str[Math.floor(Math.random() * str.length)];
     }
     return color;
@@ -68,7 +72,7 @@ window.addEventListener('keypress', (e) => {
     if (e.keyCode === 32){
         generateColorPalette();
     } else if (e.keyCode === 99 && currentElem){
-        var targetInput = currentElem.querySelector('input[name="color"]');
+        let targetInput = currentElem.querySelector('input[name="color"]');
         targetInput.select();
         document.execCommand('copy');
         notification('Color <b>' + targetInput.value  + '</b> copied to your clipboard');
