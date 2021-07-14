@@ -12,6 +12,9 @@
 For actions: https://user-images.githubusercontent.com/84992900/124970272-63a8f000-e030-11eb-92a6-fd8a792600ab.mp4
 ![cookie-banner](https://user-images.githubusercontent.com/84992900/124970793-0b262280-e031-11eb-9e48-99735236766d.png)
 
+✔ Footer component example
+![footer-component](https://user-images.githubusercontent.com/84992900/125703634-fe11c152-a50b-444b-8328-234072766f29.png)
+
 ✔ Color palette generator example
 ![color-palette](https://user-images.githubusercontent.com/84992900/125199997-81b16300-e271-11eb-8959-75731ac5c475.png)
 
