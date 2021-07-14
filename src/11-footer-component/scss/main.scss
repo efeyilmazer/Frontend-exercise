@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Mulish', sans-serif;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #F7F8FC;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 75px 50px 10px 50px;
+  border-top: 5px solid #10182F;
+  background-color: #fff;
+  box-shadow: 0 10px 76px -12px rgba(#001D93, .1);
+  .footer-top {
+    display: flex;
+    .logo {
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        margin-right: 50px;
+        font-weight: bold;
+        color: #10182F;
+        align-items: flex-start;
+    }
+    .footer-menu {
+      margin-left: auto;
+      display: flex;
+      nav {
+        min-width: 180px;
+        margin-right: 40px;
+        h5 {
+          font-size: 14px;
+          font-weight: bold;
+          color: #222C46;
+          margin-bottom: 20px;
+          text-transform: uppercase;
+        }
+        ul {
+          li {
+            a {
+              display: block;
+              font-size: 16px;
+              color: #545D7A;
+              padding: 10px 0;
+              position: relative;
+              &::before {
+                content: '';
+                height: 1px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background-color: #545D7A;
+                width: 0;
+                transition: 300ms width;
+              }
+              &:hover {
+                color: #222C46;
+                &::before {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    align-items: center;
+    display: flex;
+    padding-top: 85px;
+    justify-content: space-between;
+    p {
+      font-size: 14px;
+      color: #545D7A;
+    }
+    .footer-menu {
+      ul {
+        display: flex;
+        li {
+          margin: 0 25px;
+          a {
+            display: block;
+            font-size: 14px;
+            color: #545D7A;
+            &:hover {
+              color: #10182F;
+            }
+          }
+        }
+      }
+    }
+    .footer-social {
+      display: flex;
+      li {
+        a {
+          width: 48px;
+          height: 48px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50px;
+          transition: 300ms background-color;
+          img {
+            opacity: .55;
+            transition: 300ms opacity;
+          }
+          &:hover {
+            background-color: rgba(#10182F, .05);
+            img {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
