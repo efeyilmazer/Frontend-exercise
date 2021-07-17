@@ -18,6 +18,9 @@ For actions: https://user-images.githubusercontent.com/84992900/124970272-63a8f0
 ✔ Color palette generator example
 ![color-palette](https://user-images.githubusercontent.com/84992900/125199997-81b16300-e271-11eb-8959-75731ac5c475.png)
 
+✔ Plan & History component
+![plan history-components](https://user-images.githubusercontent.com/84992900/126036570-ae1ac98e-616b-44d1-912d-212ab80737b3.png)
+
 ✔ Share popup example
 ![share-popup](https://user-images.githubusercontent.com/84992900/124810252-c4b9c080-df69-11eb-9d96-1d8859ca30b2.png)
 
