@@ -12,14 +12,14 @@
 For actions: https://user-images.githubusercontent.com/84992900/124970272-63a8f000-e030-11eb-92a6-fd8a792600ab.mp4
 ![cookie-banner](https://user-images.githubusercontent.com/84992900/124970793-0b262280-e031-11eb-9e48-99735236766d.png)
 
+✔ Footer component example
+![footer-component](https://user-images.githubusercontent.com/84992900/125703634-fe11c152-a50b-444b-8328-234072766f29.png)
+
 ✔ Color palette generator example
 ![color-palette](https://user-images.githubusercontent.com/84992900/125199997-81b16300-e271-11eb-8959-75731ac5c475.png)
 
 ✔ Share popup example
 ![share-popup](https://user-images.githubusercontent.com/84992900/124810252-c4b9c080-df69-11eb-9d96-1d8859ca30b2.png)
-
-✔ Website component example
-![website-components](https://user-images.githubusercontent.com/84992900/125495968-1331a64f-5734-48ef-bf65-90f11872f245.png)
 
 ✔ Price plan component example
 ![price-plan-component](https://user-images.githubusercontent.com/84992900/124680188-891de880-dece-11eb-985a-41d376bb132c.png)
@@ -38,4 +38,7 @@ For actions: https://user-images.githubusercontent.com/84992900/124970272-63a8f0
 
 ✔ Search filter components example
 ![search-filter-components](https://user-images.githubusercontent.com/84992900/124680229-9b982200-dece-11eb-878c-1a6af05ddd6c.png)
+
+✔ Website component example
+![website-components](https://user-images.githubusercontent.com/84992900/125495968-1331a64f-5734-48ef-bf65-90f11872f245.png)
 ---
