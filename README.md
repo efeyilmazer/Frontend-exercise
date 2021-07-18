@@ -1,6 +1,7 @@
 # frontend-exercise
 ---
-
+In this repository im doing some component examples.
+There are some;
 ---
 >Frontend Exercise Repo
 
