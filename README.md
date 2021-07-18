@@ -18,8 +18,11 @@ For actions: https://user-images.githubusercontent.com/84992900/124970272-63a8f0
 ✔ Color palette generator example
 ![color-palette](https://user-images.githubusercontent.com/84992900/125199997-81b16300-e271-11eb-8959-75731ac5c475.png)
 
-✔ Plan & History component
+✔ Plan & History component example
 ![plan history-components](https://user-images.githubusercontent.com/84992900/126036570-ae1ac98e-616b-44d1-912d-212ab80737b3.png)
+
+✔ Trial-Credit component example
+![12-trial-credit-component](https://user-images.githubusercontent.com/84992900/126050473-0f01d511-3d03-496b-8ac0-9c669c6d4cfd.png)
 
 ✔ Share popup example
 ![share-popup](https://user-images.githubusercontent.com/84992900/124810252-c4b9c080-df69-11eb-9d96-1d8859ca30b2.png)
