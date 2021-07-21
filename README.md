@@ -1,5 +1,9 @@
 # frontend-exercise
 ---
+In this repository im doing some component examples.
+---
+There are some;
+---
 >Frontend Exercise Repo
 
 ✔ Job page component example
@@ -33,6 +37,9 @@ For actions: https://user-images.githubusercontent.com/84992900/124970272-63a8f0
 ✔ Pricing list component example
 ![pricing-list-component](https://user-images.githubusercontent.com/84992900/124680198-8b804280-dece-11eb-8f2d-4d8f2f2049d2.png)
 
+✔ Blog cards component example
+![blog-cards-component](https://user-images.githubusercontent.com/84992900/126086058-8d524c3e-a83b-4414-bbcf-ab61c94a5f3c.png)
+
 ✔ Help center component example
 ![help-center](https://user-images.githubusercontent.com/84992900/124680205-9044f680-dece-11eb-9d8e-784d44597324.png)
 
@@ -47,4 +54,3 @@ For actions: https://user-images.githubusercontent.com/84992900/124970272-63a8f0
 
 ✔ Website component example
 ![website-components](https://user-images.githubusercontent.com/84992900/125495968-1331a64f-5734-48ef-bf65-90f11872f245.png)
----
