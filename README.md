@@ -6,6 +6,9 @@ There are some;
 ---
 >Frontend Exercise Repo
 
+✔ Safari browser component example
+![safari-browser](https://user-images.githubusercontent.com/84992900/126917212-57c9e755-b138-4f24-8fdf-60e9b09d3df6.png)
+
 ✔ Settings & Notifications component example
 ![Settings Notifications component](https://user-images.githubusercontent.com/84992900/126502319-9f4088f7-cd31-4a48-bf09-9023145fe104.png)
 
