@@ -9,6 +9,9 @@ There are some;
 ✔ Settings & Notifications component example
 ![Settings Notifications component](https://user-images.githubusercontent.com/84992900/126502319-9f4088f7-cd31-4a48-bf09-9023145fe104.png)
 
+✔ Safari browser component example
+![safari-browser](https://user-images.githubusercontent.com/84992900/126916712-ae60ebd6-32e1-4bf0-973f-b9d5292ec8c4.png)
+
 ✔ Job page component example
 ![job-page-components](https://user-images.githubusercontent.com/84992900/125496545-dcb1b0ec-0e7a-41fd-87b4-25e1fa9086be.png)
 
