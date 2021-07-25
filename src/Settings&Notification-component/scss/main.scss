@@ -88,7 +88,11 @@ body {
           align-items: center;
           background: #202142;
           color: #fff;
+          cursor: pointer;
           border-radius: 10px;
+          &:hover {
+            background: lighten(#202142, 10%);
+          }
         }
       }
     }
@@ -113,9 +117,10 @@ body {
         font-size: 32px;
         margin-bottom: 40px;
       }
+      /* (checkbox ile daha verimli olacağına karar verdim) */
       button {
-        cursor: pointer;
         display: flex;
+        cursor: pointer;
         color: #202142;
         background: transparent;
         width: 170px;
@@ -123,6 +128,10 @@ body {
         margin-bottom: 40px;
         font-size: 20px;
         border-radius: 25px;
+        transition: 200ms all;
+        &:hover {
+          color: lighten(#202142, 50%);
+        }
       }
     }
     .notifications {
@@ -167,7 +176,6 @@ body {
           left: 0;
           right: 0;
           bottom: 0;
-          border: 1px solid #a4a4cb;
           background-color: #ccc;
           -webkit-transition: 0.4s;
           transition: 0.4s;
@@ -179,7 +187,7 @@ body {
           height: 26px;
           width: 26px;
           left: 4px;
-          bottom: 3.5px;
+          bottom: 4px;
           align-items: center;
           background: #fff;
           -webkit-transition: 0.4s;
