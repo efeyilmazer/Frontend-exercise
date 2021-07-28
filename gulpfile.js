@@ -7,7 +7,7 @@ const minifyJS = require("gulp-uglify");
 const concat = require("gulp-concat");
 const autoprefixer = require("gulp-autoprefixer");
 const del = require("del");
-const fileName = "21-safari-browser";
+const fileName = "22-CDN-UI-component";
 
 //src/2-linkedin-redesign/**/
 gulp.task("browser-sync", () => {
