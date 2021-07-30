@@ -15,6 +15,9 @@ There are some;
 ✔ Job page component example
 ![job-page-components](https://user-images.githubusercontent.com/84992900/125496545-dcb1b0ec-0e7a-41fd-87b4-25e1fa9086be.png)
 
+✔ CDN UI components example
+![cdn-ui-components](https://user-images.githubusercontent.com/84992900/127246397-e0bd2c8b-b1bc-47ea-b4e8-152365db0fbe.png)
+
 ✔ Login component example
 ![login-component](https://user-images.githubusercontent.com/84992900/124680161-7c999000-dece-11eb-9208-6a21c05be709.png)
 
