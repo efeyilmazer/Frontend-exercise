@@ -5,8 +5,8 @@ body {
   background-color: #303236;
   font-family: Muli;
 }
-.component--search{
-  background: #3D3F43;
+.component--search {
+  background: #3d3f43;
   border-radius: 15px;
   padding: 40px 45px;
   box-shadow: 0 15px 25px -20px #202125;
@@ -14,7 +14,7 @@ body {
     position: relative;
     margin-bottom: 30px;
     .search-icon {
-      position:absolute;
+      position: absolute;
       top: 0;
       left: 0;
       width: 53px;
@@ -24,54 +24,54 @@ body {
       justify-content: center;
     }
     input {
-  height: 50px;
-  width: 100%;
-  background: #303236;
-  border:none;
-  border-radius: 5px;
-  font-size: 16px;
-  color: #fff;
+      height: 50px;
+      width: 100%;
+      background: #303236;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #fff;
 
-  &:focus {
-    outline: 0;
-  }
-  &::placeholder{
-    color: rgba(#fff, .5)
-  }
+      &:focus {
+        outline: 0;
+      }
+      &::placeholder {
+        color: rgba(#fff, 0.5);
+      }
       padding-left: 53px;
     }
   }
 
-h6{
-  font-size: 12px;
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-}
-ul{
-  margin-top: 13px;
-  li {
-    a {
-      display:block;
-      text-decoration: none;
-      font-size: 16px;
-      color: #fff;
-      padding: 7px 0;
-      &:hover {
-        color: #2CCDEA;
-        font-weight: bold;
+  h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  ul {
+    margin-top: 13px;
+    li {
+      a {
+        display: block;
+        text-decoration: none;
+        font-size: 16px;
+        color: #fff;
+        padding: 7px 0;
+        &:hover {
+          color: #2ccdea;
+          font-weight: bold;
+        }
       }
-     }
     }
   }
 }
 .component--filter-search {
-  background: #3D3F43;
+  background: #3d3f43;
   border-radius: 5px;
   form {
     .border {
       display: block;
-      margin-top: 14px ;
+      margin-top: 14px;
       margin-right: 5px;
       width: 1px;
       height: 40px;
@@ -100,12 +100,12 @@ ul{
           outline: 0;
         }
         &::placeholder {
-          color: rgba(#fff, .5);
+          color: rgba(#fff, 0.5);
         }
       }
     }
     ul {
-      display:flex;
+      display: flex;
       margin-left: 15px;
       align-items: center;
       li {
@@ -114,7 +114,7 @@ ul{
             display: none;
             &:checked + .text {
               background-color: #303236;
-              color: #2CCDEA;
+              color: #2ccdea;
             }
           }
           .text {
@@ -127,14 +127,14 @@ ul{
             cursor: pointer;
             border-radius: 40px;
             transition: 400ms background-color, 400ms color;
-              }
-            }
           }
         }
       }
+    }
+  }
 }
 .component--filter {
-  background: #3D3F43;
+  background: #3d3f43;
   border-radius: 15px;
   padding: 40px 45px;
   box-shadow: 0 15px 25px -20px #202125;
@@ -155,7 +155,8 @@ ul{
         }
         .value {
           flex: 1;
-          input , select {
+          input,
+          select {
             width: 100%;
             height: 50px;
             background: #303236;
@@ -169,7 +170,7 @@ ul{
               outline: 0;
             }
             &::placeholder {
-              color: rgba(#fff, .5)
+              color: rgba(#fff, 0.5);
             }
           }
           .selectbox {
@@ -179,11 +180,10 @@ ul{
             border-radius: 5px;
             height: 50px;
             img {
-              position:absolute;
+              position: absolute;
               top: 50%;
               right: 25px;
-              transform: translateY(-50%)
-
+              transform: translateY(-50%);
             }
             select {
               cursor: pointer;
@@ -203,7 +203,7 @@ ul{
         }
 
         a {
-          color: rgba(#fff, .5);
+          color: rgba(#fff, 0.5);
           text-decoration: none;
           font-size: 16px;
           &:hover {
@@ -215,12 +215,12 @@ ul{
           padding: 0 30px;
           display: flex;
           align-items: center;
-          background: linear-gradient(to right, #31A5D9, #1E96A0);
+          background: linear-gradient(to right, #31a5d9, #1e96a0);
           font-size: 16px;
           color: #fff;
           border: none;
           border-radius: 50px;
-          box-shadow: 0px 7px 10px 0px rgba(#2B2D30, .5);
+          box-shadow: 0px 7px 10px 0px rgba(#2b2d30, 0.5);
           cursor: pointer;
         }
       }
