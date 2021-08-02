@@ -12,6 +12,9 @@ There are some;
 ✔ Settings & Notifications component example
 ![Settings Notifications component](https://user-images.githubusercontent.com/84992900/126502319-9f4088f7-cd31-4a48-bf09-9023145fe104.png)
 
+✔ Footer UI component example
+![Footer-UI](https://user-images.githubusercontent.com/84992900/127789848-a511af4b-4f32-4338-b3b8-6253f03872b6.png)
+
 ✔ Job page component example
 ![job-page-components](https://user-images.githubusercontent.com/84992900/125496545-dcb1b0ec-0e7a-41fd-87b4-25e1fa9086be.png)
 
