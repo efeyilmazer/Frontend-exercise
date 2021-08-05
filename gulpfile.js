@@ -7,9 +7,8 @@ const minifyJS = require("gulp-uglify");
 const concat = require("gulp-concat");
 const autoprefixer = require("gulp-autoprefixer");
 const del = require("del");
-const fileName = "Footer-UI";
+const fileName = "Footer-ui";
 
-//src/2-linkedin-redesign/**/
 gulp.task("browser-sync", () => {
   browserSync.init({
     server: {
