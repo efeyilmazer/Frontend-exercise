@@ -8,7 +8,7 @@ const minifyJS = require('gulp-uglify');
 const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 const del = require('del');
-const fileName = "plan&history-component";
+const fileName = "test";
 
 gulp.task('browser-sync', () => {
     browserSync.init({
