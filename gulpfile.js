@@ -8,7 +8,7 @@ const minifyJS = require('gulp-uglify');
 const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 const del = require('del');
-const fileName = "test";
+const fileName = "21-safari-browser";
 
 gulp.task('browser-sync', () => {
     browserSync.init({
