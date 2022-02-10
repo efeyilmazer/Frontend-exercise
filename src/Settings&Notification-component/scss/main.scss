@@ -13,7 +13,7 @@
 
 body {
   background: rgba(#ff6a95, 0.1);
-  padding: 50px 0 0 250px;
+  padding: 50px 0 0 120px;
 }
 
 .component {
@@ -103,7 +103,7 @@ body {
     height: 1120px;
     background: #fff;
     .settings {
-      border-right: 1px solid rgba(#efefff, 0.3);
+      border-right: 2px solid rgba(#efefff, 0.5);
       position: absolute;
       top: 210px;
       left: 416px;
