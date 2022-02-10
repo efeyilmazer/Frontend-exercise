@@ -1,4 +1,3 @@
-
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
@@ -8,7 +7,7 @@ const minifyJS = require('gulp-uglify');
 const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 const del = require('del');
-const fileName = "Surveycard-ui";
+const fileName = "Settings&Notification-component";
 
 gulp.task('browser-sync', () => {
     browserSync.init({
