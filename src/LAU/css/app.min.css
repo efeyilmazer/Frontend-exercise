@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+*:focus {
+    outline: 0;
+}
+body {
+    padding: 50px 150px;
+    background: #baffb3;
+}
+.top-container {
+    display: flex;
+    justify-content: space-between;
+}
+.top-container .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-container .search img {
+    fill: #fff;
+    padding-right: 15px;
+}
+.top-container .search input {
+    font-size: 16px;
+    padding-left: 10px;
+    border: 2px solid;
+    width: 150px;
+    height: 40px;
+}
+h1 {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+.baslik-spor h1 {
+    display: flex;
+    justify-content: center;
+}
+.baslik-spor .spor {
+    display: flex;
+    justify-content: center;
+}
+.baslik-spor .spor img {
+    border-radius: 50px;
+}
+.futbol {
+    border-radius: 10px;
+    background-color: #dfffdc;
+    display: flex;
+}
+.futbol .futbolimg {
+    border-radius: 10px;
+    width: 500px;
+}
+.futbol nav ul li {
+    box-shadow: 5px 5px #888;
+    border-radius: 15px;
+    margin: 25px;
+    background-color: #fff;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    transition: 200ms all;
+}
+.futbol nav ul li:hover {
+    scale: 1.05;
+}
+.futbol nav ul li:hover a {
+    text-decoration: underline;
+}
+.triple-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+.triple-images img {
+    margin-right: 35px;
+    border-radius: 25px;
+    width: 300px;
+    height: 120px;
+    transition: 300ms all;
+}
+.triple-images img:hover {
+    width: 320px;
+    height: 140px;
+}
+.basketbol {
+    border-radius: 10px;
+    background-color: #dfffdc;
+    display: flex;
+}
+.basketbol .basketbolimg {
+    border-radius: 10px;
+    width: 500px;
+}
+.basketbol nav ul li {
+    box-shadow: 5px 5px #888;
+    border-radius: 15px;
+    margin: 25px;
+    background-color: #fff;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    transition: 200ms all;
+}
+.basketbol nav ul li:hover {
+    scale: 1.05;
+}
+.basketbol nav ul li:hover a {
+    text-decoration: underline;
+}
+.voleybol {
+    border-radius: 10px;
+    background-color: #dfffdc;
+    display: flex;
+}
+.voleybol .voleybolimg {
+    border-radius: 10px;
+    width: 500px;
+}
+.voleybol nav ul li {
+    box-shadow: 5px 5px #888;
+    border-radius: 15px;
+    margin: 25px;
+    background-color: #fff;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    transition: 200ms all;
+}
+.voleybol nav ul li:hover {
+    scale: 1.05;
+}
+.voleybol nav ul li:hover a {
+    text-decoration: underline;
+}
+.f1 {
+    border-radius: 10px;
+    background-color: #dfffdc;
+    display: flex;
+}
+.f1 .f1img {
+    border-radius: 10px;
+    width: 500px;
+}
+.f1 nav ul li {
+    box-shadow: 5px 5px #888;
+    border-radius: 15px;
+    margin: 25px;
+    background-color: #fff;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    transition: 200ms all;
+}
+.f1 nav ul li:hover {
+    scale: 1.05;
+}
+.f1 nav ul li:hover a {
+    text-decoration: underline;
+}
