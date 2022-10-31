@@ -11,6 +11,7 @@ const fileName = "Settings&Notification-component";
 
 gulp.task('browser-sync', () => {
     browserSync.init({
+        watch: true,
         server: {
             baseDir: "dist"
         }
